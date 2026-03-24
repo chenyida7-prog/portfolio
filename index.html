@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>陈一达 · AI产品经理</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">陈一达</span>
+      <ul class="nav-links">
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#experience">实习经历</a></li>
+        <li><a href="#cases">项目案例</a></li>
+        <li><a href="#skills">核心能力</a></li>
+        <li><a href="#contact">联系我</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-tag">AI 产品经理</div>
+      <h1 class="hero-name">陈一达</h1>
+      <p class="hero-sub">Yale MS · 小红书 · 美团 Keeta<br/>用数据与 AI 驱动产品决策</p>
+      <div class="hero-chips">
+        <span class="chip">AI Workflow</span>
+        <span class="chip">LLM 评测体系</span>
+        <span class="chip">推荐策略</span>
+        <span class="chip">数据分析</span>
+        <span class="chip">履约产品</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#cases" class="btn btn-primary">查看项目案例</a>
+        <a href="#contact" class="btn btn-ghost">联系我</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>向下滚动</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- 关于我 -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">ABOUT</div>
+        <h2 class="section-title">关于我</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-intro">
+          <p class="about-lead">我是陈一达，耶鲁大学流行病学与卫生统计在读硕士，专注于 AI 产品方向。</p>
+          <p class="about-text">我具备从数据分析到 AI workflow 设计的完整能力链，曾在小红书负责大模型增强 POI 推荐理由与召回策略，在美团 Keeta 参与海外履约产品建设。我相信好的产品决策来自对用户真实需求的深刻理解，以及对数据的严谨分析。</p>
+        </div>
+        <div class="edu-cards">
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <div class="edu-info">
+              <div class="edu-school">耶鲁大学</div>
+              <div class="edu-degree">理学硕士 · 流行病学与卫生统计（数据分析方向）</div>
+              <div class="edu-year">2024.08 – 2026.05</div>
+              <div class="edu-courses">人工智能应用 · 数据科学 · 高级回归模型 · 数学建模</div>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon">📐</div>
+            <div class="edu-info">
+              <div class="edu-school">诺丁汉大学</div>
+              <div class="edu-degree">理学学士 · 数学与应用数学 &nbsp;<span class="gpa">GPA 3.86/4.0</span></div>
+              <div class="edu-year">2019.09 – 2023.07</div>
+              <div class="edu-courses">机器学习 · 回归分析 · 概率论 · 运筹学 · 博弈论</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 实习经历 -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">EXPERIENCE</div>
+        <h2 class="section-title">实习经历</h2>
+      </div>
+      <div class="timeline">
+
+        <!-- 小红书 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="exp-header">
+              <div class="exp-company-wrap">
+                <div class="exp-company-logo xhs-logo">小红书</div>
+                <div>
+                  <div class="exp-title">AI 策略产品经理</div>
+                  <div class="exp-meta">小红书 · 社区部 · 本地生活地图</div>
+                </div>
+              </div>
+              <div class="exp-date">2025.05 – 2025.08</div>
+            </div>
+            <p class="exp-overview">在本地生活地图场景，负责大模型增强 POI 推荐理由与推荐召回策略优化，涵盖 AI workflow 设计、评测迭代、策略优化。</p>
+            <div class="exp-bullets">
+              <div class="bullet-item">
+                <div class="bullet-tag tag-green">CTR +5pp</div>
+                <div class="bullet-text">设计"输入筛选-亮点提炼-兜底生成"的 LLM workflow，将 POI 外露信息从数量展示升级为内容价值表达</div>
+              </div>
+              <div class="bullet-item">
+                <div class="bullet-tag tag-blue">Bad case 22%→6%</div>
+                <div class="bullet-text">主导 AI 输出质量评测体系从 0 到 1 搭建，构建 50+ 多场景评测集，推动高质量内容占比从 48% 提升至 61%</div>
+              </div>
+              <div class="bullet-item">
+                <div class="bullet-tag tag-green">CTR +8pp</div>
+                <div class="bullet-text">将推荐链路从地点直召回升级为内容驱动召回（内容召回 → POI 映射），提高精准性和多样性</div>
+              </div>
+              <div class="bullet-item">
+                <div class="bullet-tag tag-green">CTR +16pp</div>
+                <div class="bullet-text">调研不同城市/比例尺 POI 丰富度，制定按城市分类 + 实时动态召回范围策略</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 美团 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="exp-header">
+              <div class="exp-company-wrap">
+                <div class="exp-company-logo meituan-logo">美团</div>
+                <div>
+                  <div class="exp-title">履约产品经理</div>
+                  <div class="exp-meta">美团 · Keeta（海外外卖） · 骑手端</div>
+                </div>
+              </div>
+              <div class="exp-date">2025.08 – 2025.12</div>
+            </div>
+            <p class="exp-overview">负责骑手端基础能力建设，支持 4-5 个国家新市场扩张与冷启动阶段千人规模运力补充，降低新市场上线与复制成本。</p>
+            <div class="exp-bullets">
+              <div class="bullet-item">
+                <div class="bullet-tag tag-orange">安全评分 +20%</div>
+                <div class="bullet-text">设计倒计时缓冲与差异化提示机制，平衡抢单场景下的体验、效率与安全问题</div>
+              </div>
+              <div class="bullet-item">
+                <div class="bullet-tag tag-blue">多国扩张</div>
+                <div class="bullet-text">抽象证件准入通用能力，拆解为可配置模板，支持新市场快速上线和万人规模合规运力增长</div>
+              </div>
+              <div class="bullet-item">
+                <div class="bullet-tag tag-orange">合规风控</div>
+                <div class="bullet-text">打通"识别-触达-更新"全链路，降低关键证件过期/缺失带来的亿级合规罚款风险</div>
+              </div>
+              <div class="bullet-item">
+                <div class="bullet-tag tag-blue">千人运力</div>
+                <div class="bullet-text">从 0 到 1 搭建线上招募入口，打通"线索→注册"承接链路，支撑新市场冷启动阶段运力增长</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 中山大学附属医院 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="exp-header">
+              <div class="exp-company-wrap">
+                <div class="exp-company-logo hospital-logo">中大七院</div>
+                <div>
+                  <div class="exp-title">数据分析实习生</div>
+                  <div class="exp-meta">中山大学附属第七医院 · 大数据中心</div>
+                </div>
+              </div>
+              <div class="exp-date">2023.05 – 2023.09</div>
+            </div>
+            <div class="exp-bullets">
+              <div class="bullet-item">
+                <div class="bullet-tag tag-blue">数据治理</div>
+                <div class="bullet-text">使用 R 对 120+ 个结构化数据集进行标准化清洗与治理，沉淀可复用的数据处理规范</div>
+              </div>
+              <div class="bullet-item">
+                <div class="bullet-tag tag-blue">因果推断</div>
+                <div class="bullet-text">构建因果推断分析框架降低混杂影响，识别慢病风险关键因子，输出可解释结论与可执行建议</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 项目案例 -->
+  <section class="section" id="cases">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">CASES</div>
+        <h2 class="section-title">项目案例</h2>
+      </div>
+
+      <!-- 案例1 -->
+      <div class="case-block">
+        <div class="case-meta">
+          <span class="case-company">小红书 · 地图场景</span>
+          <span class="case-type">AI Workflow · LLM 评测</span>
+        </div>
+        <h3 class="case-title">大模型增强 POI 推荐理由生成</h3>
+        <div class="case-grid">
+          <div class="case-left">
+            <div class="case-section-title">背景与问题</div>
+            <p class="case-desc">用户在出行前决策时需要了解目的地信息，但地图中 POI 展示仅为"XXX篇笔记"的数量形式，缺乏内容表达，点击吸引力弱。</p>
+
+            <div class="case-section-title">解决思路</div>
+            <div class="flow-steps">
+              <div class="flow-step">
+                <div class="flow-num">1</div>
+                <div class="flow-text">拆解 3 类信息来源，判断 POI 相关用户内容最适合提炼推荐理由</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">
+                <div class="flow-num">2</div>
+                <div class="flow-text">对比多方案后，基于 LLM 个性化与质量可控优势，设计 workflow</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">
+                <div class="flow-num">3</div>
+                <div class="flow-text">输入筛选 → 亮点提炼 → 兜底生成，推动内容价值表达上线</div>
+              </div>
+            </div>
+
+            <div class="case-section-title" style="margin-top:24px">评测与迭代</div>
+            <div class="rubric-box">
+              <div class="rubric-title">评测 Rubric 设计</div>
+              <div class="rubric-dims">
+                <div class="rubric-dim">
+                  <div class="dim-label">基础可用性</div>
+                  <div class="dim-rule">一票否决</div>
+                </div>
+                <div class="rubric-sep">+</div>
+                <div class="rubric-dim">
+                  <div class="dim-label">内容质量</div>
+                  <div class="dim-rule">0–3 分阶梯</div>
+                </div>
+                <div class="rubric-sep">+</div>
+                <div class="rubric-dim">
+                  <div class="dim-label">语言风格</div>
+                  <div class="dim-rule">0–3 分阶梯</div>
+                </div>
+              </div>
+              <div class="rubric-result">构建 50+ 多场景评测集，归因至输入筛选 / Prompt / 展示规则三类链路</div>
+            </div>
+          </div>
+          <div class="case-right">
+            <div class="case-phone-wrap">
+              <div class="phone-frame">
+                <div class="phone-screen phone-screen-img">
+                  <img src="images/xhs-map.png" alt="小红书地图 AI 生成 POI 推荐理由" class="phone-screenshot" />
+                </div>
+              </div>
+              <div class="phone-caption">AI 生成的个性化 POI 推荐理由</div>
+            </div>
+          </div>
+        </div>
+        <div class="case-results">
+          <div class="result-card">
+            <div class="result-num">+5pp</div>
+            <div class="result-label">灰度 CTR 提升</div>
+          </div>
+          <div class="result-card">
+            <div class="result-num">22%→6%</div>
+            <div class="result-label">bad case 率下降</div>
+          </div>
+          <div class="result-card">
+            <div class="result-num">48%→61%</div>
+            <div class="result-label">高质量内容占比</div>
+          </div>
+          <div class="result-card">
+            <div class="result-num">+8pp</div>
+            <div class="result-label">内容驱动召回 CTR</div>
+          </div>
+          <div class="result-card">
+            <div class="result-num">+16pp</div>
+            <div class="result-label">动态召回范围 CTR</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 案例2 -->
+      <div class="case-block">
+        <div class="case-meta">
+          <span class="case-company">美团 Keeta · 海外外卖</span>
+          <span class="case-type">履约产品 · 多国扩张</span>
+        </div>
+        <h3 class="case-title">海外骑手端基础能力建设</h3>
+        <div class="case-grid case-grid-2">
+          <div class="case-module">
+            <div class="module-icon">🛵</div>
+            <div class="module-title">配送流程安全体验</div>
+            <div class="module-desc">定位抢单场景频繁看屏安全痛点，设计倒计时缓冲与差异化提示机制，平衡效率与安全。</div>
+            <div class="module-result">骑手安全评分预估 +20%</div>
+          </div>
+          <div class="case-module">
+            <div class="module-icon">🌏</div>
+            <div class="module-title">多国规则配置化</div>
+            <div class="module-desc">抽象证件准入通用能力，拆解为可配置模板，支持新市场快速上线，降低重复开发成本。</div>
+            <div class="module-result">支持 4-5 个国家扩张</div>
+          </div>
+          <div class="case-module">
+            <div class="module-icon">🔔</div>
+            <div class="module-title">状态治理与触达闭环</div>
+            <div class="module-desc">打通"识别-触达-更新"全链路，协同业务对齐状态定义与处理规则，降低合规罚款风险。</div>
+            <div class="module-result">覆盖亿级合规风险</div>
+          </div>
+          <div class="case-module">
+            <div class="module-icon">📈</div>
+            <div class="module-title">运力增长链路搭建</div>
+            <div class="module-desc">从 0 到 1 搭建线上招募入口，打通"线索→注册"承接链路，补充关键埋点支持数据驱动优化。</div>
+            <div class="module-result">支撑千人规模运力增长</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 核心能力 -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">SKILLS</div>
+        <h2 class="section-title">核心能力</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <div class="skill-name">AI Workflow 设计</div>
+          <div class="skill-desc">深入理解应用场景，落地从召回-提示词工程-生成-评测-迭代优化的完整链路</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <div class="skill-name">AI 评测与优化</div>
+          <div class="skill-desc">从 0 到 1 搭建评测体系，完成效果评估、问题归因、多轮迭代优化，包括 prompt 优化</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🧠</div>
+          <div class="skill-name">AI 技术理解</div>
+          <div class="skill-desc">理解 AI 技术原理，有 Python 编程基础、模型从训练到部署完整链路实践经验</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📐</div>
+          <div class="skill-name">数据分析</div>
+          <div class="skill-desc">扎实的统计学基础，熟练使用 Python / R 进行数据清洗、分析建模与因果推断</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🗺️</div>
+          <div class="skill-name">推荐策略</div>
+          <div class="skill-desc">有推荐召回策略设计经验，理解用户兴趣建模、内容驱动召回等核心机制</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌍</div>
+          <div class="skill-name">跨团队协作</div>
+          <div class="skill-desc">能与算法、工程、业务团队高效协作，有多国市场产品落地经验</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我 -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">CONTACT</div>
+        <h2 class="section-title">联系我</h2>
+      </div>
+      <div class="contact-wrap">
+        <p class="contact-intro">目前在寻找 AI 产品方向的实习 / 全职机会，欢迎交流！</p>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:chenyida7@gmail.com">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-label">邮箱</div>
+            <div class="contact-value">chenyida7@gmail.com</div>
+          </a>
+          <div class="contact-card">
+            <div class="contact-icon">📱</div>
+            <div class="contact-label">手机</div>
+            <div class="contact-value">(+86) 198 8300 1089</div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">💬</div>
+            <div class="contact-label">微信</div>
+            <div class="contact-value">Logan0798</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>陈一达 · AI 产品经理</span>
+      <span>Yale MS · 小红书 · 美团 Keeta</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
